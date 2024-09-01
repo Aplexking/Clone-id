@@ -1,5 +1,4 @@
-#Script рждрзЛ ржирж┐рждрзЗ ржЖрж╕рж▓рж╛ ржПржХрж╛ржЙржирзНржЯ ржЯрж╛ ржлрж▓рзЛ ржХрж░рж▓рзЗ ржХрж┐ рж╣рзЯ рж╣рзБржоЁЯШХ
-#ржПржХрж╛ржЙржирзНржЯ ржлрж▓рзЛ ржЖрж░ ржПржЗ Respotary рждрзЗ ржПржХржЯрж╛ Star ржжрж┐рзЯрж╛ ржпрж╛ржЗржУЁЯШК
+
 #----------------------------------------------------------------------------------------------------------
 #CREATE BY : MUMIT ISLAM HIMU
 #WHATSAPP : +8801644777805
@@ -61,7 +60,7 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try:
- prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+ prox= requests.get('').text
  open('.prox.txt','w').write(prox)
 except Exception as e:
  print('')
